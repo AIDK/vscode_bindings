@@ -1,0 +1,126 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "csharpier.csharpier-vscode",
+  "editor.formatOnSaveMode": "file",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.matchBrackets": "always",
+  "editor.lineNumbers": "relative",
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.isEnable": true,
+  "todohighlight.defaultStyle": {
+    "color": "#333",
+    "backgroundColor": "#f1c40f",
+    "borderRadius": "0.75px",
+    "border": "none",
+    "fontWeight": "normal",
+    "fontStyle": "normal",
+    "textDecoration": "none"
+  },
+  "todohighlight.keywords": [
+    {
+      "text": "BUG",
+      "color": "#333",
+      "backgroundColor": "#e74c3c"
+    },
+    {
+      "text": "FIXME",
+      "color": "#333",
+      "backgroundColor": "#e67e22"
+    },
+    {
+      "text": "TODO",
+      "color": "#333",
+      "backgroundColor": "#2ecc71"
+    },
+    {
+      "text": "NOTE",
+      "color": "#333",
+      "backgroundColor": "#3498db"
+    },
+    {
+      "text": "NOIDEA",
+      "color": "#333",
+      "backgroundColor": "#9b59b6"
+    },
+    {
+      "text": "STEP",
+      "color": "#333",
+      "backgroundColor": "#f1c40f"
+    },
+    {
+      "text": "OPTIMIZE",
+      "color": "#333",
+      "backgroundColor": "#1abc9c"
+    },
+    {
+      "text": "SUGGEST",
+      "color": "#333",
+      "backgroundColor": "#84e72d"
+    }
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.printWidth": 160,
+  "editor.formatOnPaste": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetchPeriod": 1800,
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.colorTheme": "Vim Dark Hard",
+  "window.titleBarStyle": "custom",
+  "vscode_vibrancy.opacity": -1,
+  "vscode_vibrancy.preventFlash": true,
+  "winddown.minutesTillBreak": 60,
+  "winddown.postponeDurationMinutes": 15,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 180,
+  "editor.rulers": [180],
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "macos-modern",
+  "yaml.schemas": {
+    "file:///c%3A/Users/andri/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": false,
+  "editor.fontFamily": "Dank Mono",
+  "window.zoomLevel": 1,
+
+  /* NOTE
+      From here on, the settings are from the Vim extension 
+   */
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.leader": "<Space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-j>"],
+      "commands": [":bprevious"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": [":bnext"]
+    },
+    {
+      "before": ["leader", "n", "e"],
+      "commands": ["workbench.explorer.fileView.focus"]
+    },
+    { "before": ["leader", "p"], "commands": ["editor.action.formatDocument"] }
+  ],
+  "macros": {
+    "saveAndExitVimInsertMode": ["workbench.action.files.save", "extension.vim_escape"]
+  },
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+  "vim.highlightedyank.textColor": "white"
+}

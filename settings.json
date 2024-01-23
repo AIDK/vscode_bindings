@@ -1,12 +1,11 @@
 {
   "workbench.iconTheme": "material-icon-theme",
-  "editor.defaultFormatter": "csharpier.csharpier-vscode",
+  "editor.defaultFormatter": "golang.go",
   "editor.formatOnSaveMode": "file",
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingQuotes": "always",
   "editor.bracketPairColorization.enabled": true,
   "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
   "editor.matchBrackets": "always",
   "editor.lineNumbers": "relative",
   "todohighlight.isCaseSensitive": true,
@@ -60,6 +59,16 @@
       "text": "SUGGEST",
       "color": "#333",
       "backgroundColor": "#84e72d"
+    },
+    {
+      "text": "IMPORTANT",
+      "color": "#333",
+      "backgroundColor": "#F11A7B"
+    },
+    {
+      "text": "DEBUG",
+      "color": "#333",
+      "backgroundColor": "#EBD9B4"
     }
   ],
   "liveServer.settings.donotShowInfoMsg": true,
@@ -80,7 +89,7 @@
   "vscode_vibrancy.opacity": -1,
   "vscode_vibrancy.preventFlash": true,
   "winddown.minutesTillBreak": 60,
-  "winddown.postponeDurationMinutes": 15,
+  "winddown.postponeDurationMinutes": 30,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -95,10 +104,6 @@
   "redhat.telemetry.enabled": false,
   "editor.fontFamily": "Dank Mono",
   "window.zoomLevel": 1,
-
-  /* NOTE
-      From here on, the settings are from the Vim extension 
-   */
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.leader": "<Space>",
@@ -122,5 +127,19 @@
   },
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
-  "vim.highlightedyank.textColor": "white"
+  "vim.highlightedyank.textColor": "white",
+  "vim.highlightedyank.duration": 250,
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.overrideCopy": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "editor.minimap.enabled": false,
+  "thunder-client.customMethods": "ws"
 }
